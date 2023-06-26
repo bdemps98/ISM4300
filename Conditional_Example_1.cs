@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-/*
+﻿/*
  *  Lecture 1: Conditional Statements (C#)
- */ 
+ */
 namespace ISM4300
 {
     class Conditional_Example_1
@@ -20,10 +14,11 @@ namespace ISM4300
             if (i > 1000)
             {
                 Console.WriteLine("The input is greater than 1000.");
-            } 
-            else if ((i > 500) && (i <= 1000)){
+            }
+            else if ((i > 500) && (i <= 1000))
+            {
                 Console.WriteLine("Input is between 500 and 1000.");
-            } 
+            }
             else
             {
                 Console.WriteLine("The input is less than 1000.");
@@ -50,7 +45,8 @@ namespace ISM4300
                     Console.ReadKey();
                     break;
 
-                default: Console.WriteLine("The specified input is not in range [0, 2].");
+                default:
+                    Console.WriteLine("The specified input is not in range [0, 2].");
                     break;
             }
 
@@ -60,7 +56,7 @@ namespace ISM4300
                 Console.WriteLine("Enter a third integer number: ");
                 int i3 = int.Parse(Console.ReadLine());
                 Console.WriteLine("The input is : " + i3 + ".");
-            } 
+            }
             catch
             {
                 Console.WriteLine("Please use an integer number.");
