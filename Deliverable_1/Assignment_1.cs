@@ -34,7 +34,7 @@
                         // Execute if the input is equal to 'odd'.
                         if (series == "odd")
                         {
-                            Console.WriteLine("You have selected odd numbers. The odd numbers between 0 and " + input + " are: ");
+                            Console.WriteLine("You have selected " + series + " numbers. The " + series + " numbers between 0 and " + input + " are: ");
 
                             for (int i = 1; i <= input; i += 2)
                             {
@@ -45,7 +45,7 @@
                         // Execute if the input is equal to 'even'.
                         else if (series == "even")
                         {
-                            Console.WriteLine("You have selected even numbers. The even numbers between 0 and " + input + " are: ");
+                            Console.WriteLine("You have selected " + series + " numbers. The " + series + " numbers between 0 and " + input + " are: ");
 
                             for (int i = 0; i <= input; i += 2)
                             {
