@@ -3,8 +3,8 @@
 
     /*
      *  Deliverable 1 - C# Programming: Conditional and Iterative Statements
-     * */
-    internal class Assignment_1
+     **/
+    class Assignment_1
     {
         public static void DoAssignment1()
         {
